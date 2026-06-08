@@ -17,7 +17,11 @@ require("./src/config/passport.config");
 
 app.use(
   cors({
-    origin: CLIENT_URL || "http://localhost:5173",
+    origin: [
+      "http://localhost:5173",
+      "https://vietstayhub.com",
+      "http://vietstayhub.com",
+    ],
     credentials: true,
   }),
 );
