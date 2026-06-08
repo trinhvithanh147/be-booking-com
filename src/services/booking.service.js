@@ -160,7 +160,7 @@ const bookingService = {
       nights: nights,
       price_per_night: pricePerNight,
       total_price: totalPrice,
-      status,
+      status: "pending_payment",
     });
 
     return booking;
