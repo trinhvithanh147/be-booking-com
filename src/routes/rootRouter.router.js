@@ -9,6 +9,7 @@ const bookingRouter = require("./booking.router");
 const aiRouter = require("./ai.router");
 const conversationRouter = require("./conversations.router");
 const messageRouter = require("./messages.router");
+const statisticRouter = require("./statistic.router");
 
 const rootRouter = express.Router();
 
@@ -22,4 +23,5 @@ rootRouter.use("/booking", bookingRouter);
 rootRouter.use("/ai", aiRouter);
 rootRouter.use("/conversations", conversationRouter);
 rootRouter.use("/messages", messageRouter);
+rootRouter.use("/statistics", statisticRouter);
 module.exports = rootRouter;
