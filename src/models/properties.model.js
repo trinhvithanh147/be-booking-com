@@ -20,14 +20,13 @@ const propertySchema = new mongoose.Schema(
         default: null,
       },
     },
-    country: String,
 
     type: {
       type: String,
       enum: ["hotel"],
       default: "hotel",
     },
-    base_price: Number,
+
     description: String,
     amenities: {
       outdoor_pool: Boolean,

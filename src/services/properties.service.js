@@ -42,9 +42,8 @@ const propertiesService = {
       address,
       city,
       location,
-      country,
+
       type,
-      base_price,
       description,
       amenities,
       main_image_url,
@@ -60,9 +59,8 @@ const propertiesService = {
       address: address,
       city: city,
       location: location,
-      country: country,
+
       type: type,
-      base_price: base_price,
       description: description,
       amenities: amenities,
       main_image_url: main_image_url,
