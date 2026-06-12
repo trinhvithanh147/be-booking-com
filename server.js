@@ -19,8 +19,8 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://vietstayhub.com",
-      "http://vietstayhub.com",
+      "https://vietstayhub.site",
+      "https://www.vietstayhub.site",
     ],
     credentials: true,
   }),
